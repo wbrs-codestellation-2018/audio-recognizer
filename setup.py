@@ -7,4 +7,5 @@ setup(name='audio_recognizer',
       author_email='sternj@brandeis.edu',
       license='MIT',
       packages=['audio_recognizer'],
+      dependency_links=['https://github.com/acrcloud/acrcloud_sdk_python/tarball/master'],
       zip_safe=False)
