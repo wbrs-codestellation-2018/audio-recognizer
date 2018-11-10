@@ -1,0 +1,3 @@
+os.environ['ACR_ACCESS_KEY']='XXXXXX'
+os.environ['ACR_ACCESS_SECRET']='XXXXXXXXXXXX'
+os.environ['ACR_HOST']='identify-eu-west-1.acrcloud.com'

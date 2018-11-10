@@ -16,8 +16,9 @@ recognizer = ACRCloudRecognizer(config)
 
 # Artist
 # Track
-def getGenresFromFile(filename):
+def getMetadataFromFile(filename):
     returned = recognizer.recognize_by_file(filename, 0)
-    return {'artist': returned}
+    return {'artist': returned['metadata']['music'][0]['external_metadata']['spotify']['artists'[0]['name']],
+            'track': returned['metadata']['music'][0]['external_metadata']['spotify']['track']['name']}
 
 
