@@ -1,2 +1,2 @@
 environ.py
-*.pyc
+__pyccache__/
